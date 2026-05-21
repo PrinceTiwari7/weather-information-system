@@ -26,6 +26,43 @@
 			</div>
 		</form>
 	</div>
+
+	<div class="container" id="weatherDetailsContainer" style="display: none; margin-top: 20px;">
+		<h1>Weather Details</h1>
+
+		<div class="weather-image-container">
+			<img id="weather-icon" src="images/img1.png" alt="Weather Image">
+			<div class="temp-city">
+				<h2 id="displayCity">
+					<i class="fas fa-city"></i>
+				</h2>
+				<h2 id="displayTemp">
+					<i class="fas fa-thermometer-half"></i>
+				</h2>
+			</div>
+		</div>
+
+		<div class="weather-info">
+			<p>
+				<i class="fas fa-calendar-alt"></i> Date: <span id="displayDate"></span>
+			</p>
+			<p>
+				<i class="fas fa-clock"></i> CurrentTime: <span id="displayTime"></span>
+			</p>
+			<p>
+				<i class="fas fa-cloud-sun"></i> Condition: <span id="displayCondition"></span>
+			</p>
+			<p>
+				<i class="fas fa-eye"></i> Visibility: <span id="displayVisibility"></span>km
+			</p>
+			<p>
+				<i class="fas fa-wind"></i> WindSpeed: <span id="displayWindSpeed"></span>km/hr
+			</p>
+			<p>
+				<i class="fas fa-cloud"></i> CloudCover: <span id="displayCloudCover"></span>%
+			</p>
+		</div>
+	</div>
 	<script src="script.js"></script>
 </body>
 

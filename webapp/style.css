@@ -63,3 +63,38 @@ footer {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
+
+.temp-city {
+    margin: 10px 0;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.weather-image-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.weather-image-container img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.weather-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center align horizontally */
+    align-items: center; /* Center align vertically */
+}
+
+.weather-info p {
+    margin: 8px 0;
+    padding: 8px 0;
+    flex-basis: 48%;
+    text-align: center; /* Center-align text */
+}
+
+.weather-info i {
+    margin-right: 10px;
+}
