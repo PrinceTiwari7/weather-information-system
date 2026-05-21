@@ -65,11 +65,11 @@ Display current weather conditions including temperature, humidity, wind speed, 
   - Accessed the data from request attributes using ${attributeName} syntax.
 
 ## Screenshots
-![WeatherApp Screenshot](screenshots/1l.jpeg)
+![WeatherApp Homepage](screenshots/homepage.png)
 
-![WeatherApp Screenshot](screenshots/2l.jpeg)
+![Bhopal Weather Search](screenshots/bhopal_weather.png)
 
-![WeatherApp Screenshot](screenshots/3s.jpeg)
+![London Weather Search](screenshots/london_weather.png)
 
 ## Created by:
 - [Prince Tiwari](https://github.com/PrinceTiwari7)
